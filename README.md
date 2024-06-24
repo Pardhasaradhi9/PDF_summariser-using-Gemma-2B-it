@@ -14,13 +14,6 @@ A big shoutout to "prince-canuma" for his contribution to the MLX community. Do 
 
 ## How This Project Works
 
-### Features
-
-- Load and split PDF documents into manageable chunks.
-- Generate summaries for specified sections of the PDF.
-- Clean and combine generated summaries into a cohesive document.
-- Rewrite the combined summary to ensure grammatical correctness and continuity.
-
 ### Installation
 
 To install the necessary dependencies, run:
@@ -28,8 +21,8 @@ To install the necessary dependencies, run:
 ### The code explains the process i followed to create this summariser 
 
 ### Usage Summary:
-1) Load the Model and Tokenizer: Initialize the Gemma-2B-IT model and tokenizer.
-2) Load and Split the PDF Document: Use PyPDFLoader and RecursiveCharacterTextSplitter to load and split the PDF into chunks.
-3) Generate Summaries: Apply a chat template to generate summaries for the specified sections.
-4) Clean and Combine Summaries: Clean the generated summaries and combine them into a cohesive document.
-5) Rewrite the Combined Summary: Rewrite the combined summary to ensure it is grammatically correct and cohesive.
+- Load the Model and Tokenizer: Initialize the Gemma-2B-IT model and tokenizer.
+- Load and Split the PDF Document: Use PyPDFLoader and RecursiveCharacterTextSplitter to load and split the PDF into chunks.
+- Generate Summaries: Apply a chat template to generate summaries for the specified sections.
+- Clean and Combine Summaries: Clean the generated summaries and combine them into a cohesive document.
+- Rewrite the Combined Summary: Rewrite the combined summary to ensure it is grammatically correct and cohesive.
